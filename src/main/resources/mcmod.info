@@ -1,0 +1,19 @@
+[
+    {
+        "modid": "BetterCraftingTables",
+        "name": "Better Crafting Tables",
+        "description": "Provides players with crafting tables that have extra functionality, such as an inventory, or an extra crafting grid.",
+        "version": "1.7.10-0.1",
+        "credits": "Created by Caleb Meyer",
+        "logoFile": "",
+        "mcversion": "",
+        "url": "https://github.com/calebmeyer/Better-Crafting-Tables",
+        "updateUrl": "",
+        "authors": [ "Caleb Meyer" ],
+        "parent": "",
+        "screenshots": [],
+        "dependencies": [
+            "mod_MinecraftForge"
+        ]
+    }
+]

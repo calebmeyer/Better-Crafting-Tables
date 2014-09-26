@@ -1,0 +1,64 @@
+Ideas for crafting mod:
+
+Redpower project table (aka a crafting table with an inventory below)
+- move things from your inventory to the crafting grid with shift click
+- move things from the table's inventory to the crafting grid with shift click
+- move things from the crafting grid to the table's inventory with shift click
+- move things from the crafting grid to your inventory with ctrl click
+
+Recipe book of some sort
+- Remember last 8 crafted recipes
+- Remember most frequently crafted recipes
+- Remember the player's favorite recipes
+- Toggle between these two modes?
+- Click on a recipe to put it on the crafting grid, and fill in from your inventory/the table's inventory
+- Shift click a recipe to lock it
+
+Second crafting section (upgradeable from 2x2 to 3x3)
+- When using, craft what's in left as ingredient for right table automatically
+  - Example: put wood in the left. Put 8 wood planks in the right to make a chest. Make chests from the available wood planks, then autocraft more
+
+Tools in a tool rack directly above the crafting table can be used in the crafting table
+- Tools show up in a set of boxes above the crafting grid
+- Multiple crafting outputs, one normal, one above and one below that are the first two tools in the rack that apply to the current material
+  - example: new IC2 forge hammer and wire cutters, drop an iron in the top left slot, top crafting output has iron sheets
+  - put a ghost of the tool next to the slot for cohesion
+-Double wide crafting table could support 8 tools here
+
+Shapes: + represents the item, - represents empty
+- requires only one type of item in the crafting grid
+circle:
++ + +
++ - +
++ + +
+
+U:
++ - +
++ - +
++ + +
+
+N:
++ + +
++ - +
++ - +
+
+Full:
++ + +
++ + +
++ + +
+
+2x2 full:
++ + -
++ + -
+- - -
+
+Clear crafting table button
+
+Integrate with LP and AE (somehow)
+
+Crafting tables have upgrade slots for the extra features. Put a chest in the upgrade slot to get an inventory, put a pickaxe to allow tools, put a crafting table to allow a second crafting section
+- Wood: 1 upgrade
+- Iron: 2 upgrades
+- Gold: 3 upgrades
+- Diamond: 4 upgrades
+- Emerald?: something special

@@ -13,8 +13,17 @@ hs_err_pid*
 
 # eclipse related stuff
 eclipse/
+.classpath
+.project
 
 # gradle stuff
 gradle/
 gradlew
 gradlew.bat
+.gradle/
+
+# Intellij stuff
+*.iml
+*.ipr
+*.iws
+.idea/
