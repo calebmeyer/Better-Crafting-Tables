@@ -8,6 +8,8 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
+import static com.calebmeyer.bettercrafting.utilities.LoggingHelper.logger;
+
 /**
  * This is the main class for this mod. The @Mod annotation tells Forge that this is a mod, and to load it.
  */
@@ -25,16 +27,16 @@ public class BetterCraftingTables {
 
     @Mod.EventHandler
     public void preInitialization(FMLPreInitializationEvent event) {
-
+        logger.info("preparation commencing");
     }
 
     @Mod.EventHandler
     public void initialization(FMLInitializationEvent event) {
-
+        logger.info("vaporization commencing");
     }
 
     @Mod.EventHandler
     public void postInitialization(FMLPostInitializationEvent event) {
-
+        logger.info("vaporization complete");
     }
 }
