@@ -1,6 +1,7 @@
 package com.calebmeyer.bettercrafting;
 
 import com.calebmeyer.bettercrafting.constants.Project;
+import com.calebmeyer.bettercrafting.initialization.ModBlocks;
 import com.calebmeyer.bettercrafting.proxy.IProxy;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
@@ -28,6 +29,8 @@ public class BetterCraftingTables {
     @Mod.EventHandler
     public void preInitialization(FMLPreInitializationEvent event) {
         logger.info("preparation commencing");
+
+        ModBlocks.initializeBlocks();
     }
 
     @Mod.EventHandler

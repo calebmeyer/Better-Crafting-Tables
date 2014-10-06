@@ -8,4 +8,5 @@ public class Project {
     public static final String MOD_NAME = "Better Crafting Tables";
     public static final String VERSION = "1.7.10-0.1";
     public static final String SHORT_VERSION = "0.1";
+    public static final String RESOURCE_PREFIX = MOD_ID + ":";
 }
