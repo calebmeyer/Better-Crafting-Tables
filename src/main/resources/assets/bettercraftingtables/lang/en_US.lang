@@ -1,2 +1,6 @@
+# Items
+item.bettercraftingtables:craftingPanel.name=Crafting Panel
+
 # Blocks
 tile.bettercraftingtables:basicCraftingTable.name=Basic Crafting Table
+
