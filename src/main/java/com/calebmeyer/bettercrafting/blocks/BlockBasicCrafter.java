@@ -9,8 +9,8 @@ public class BlockBasicCrafter extends BlockBCT {
 
     public BlockBasicCrafter() {
         super();
-        this.setBlockName("basic");
-        //this.setBlockTextureName(Project.RESOURCE_PREFIX + "basic");
+        this.setBlockName("basicCraftingTable");
+        this.setBlockTextureName("basic");
     }
 
 }
