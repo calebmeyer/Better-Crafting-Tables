@@ -7,5 +7,6 @@ public class ItemCraftingPanel extends ItemBCT {
     public ItemCraftingPanel() {
         super();
         this.setUnlocalizedName("craftingPanel");
+        this.setTextureName("craftingPanel");
     }
 }
