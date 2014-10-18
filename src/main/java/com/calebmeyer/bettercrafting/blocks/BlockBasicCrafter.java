@@ -10,7 +10,7 @@ public class BlockBasicCrafter extends BlockBCT {
     public BlockBasicCrafter() {
         super();
         this.setBlockName("basicCraftingTable");
-        this.setBlockTextureName("basic");
+        this.setBlockTextureName("bettercraftingtables:basicCraftingTable");
     }
 
 }
