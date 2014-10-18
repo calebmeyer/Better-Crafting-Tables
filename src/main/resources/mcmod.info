@@ -1,6 +1,6 @@
 [
     {
-        "modid": "BetterCraftingTables",
+        "modid": "bettercraftingtables",
         "name": "Better Crafting Tables",
         "description": "Provides players with crafting tables that have extra functionality, such as an inventory, or an extra crafting grid.",
         "version": "0.1",
