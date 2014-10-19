@@ -1,6 +1,8 @@
 package com.calebmeyer.bettercrafting.blocks;
 
 import com.calebmeyer.bettercrafting.constants.Project;
+import com.calebmeyer.bettercrafting.creativetab.CreativeTabBCT;
+
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
@@ -13,6 +15,7 @@ import net.minecraft.client.renderer.texture.IIconRegister;
 public class BlockBCT extends Block {
     public BlockBCT() {
         super(Material.wood);
+        this.setCreativeTab(CreativeTabBCT.BETTER_CRAFTING_TABLES_TAB);
     }
 
     public BlockBCT(Material material) {

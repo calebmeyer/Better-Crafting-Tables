@@ -1,6 +1,8 @@
 package com.calebmeyer.bettercrafting.items;
 
 import com.calebmeyer.bettercrafting.constants.Project;
+import com.calebmeyer.bettercrafting.creativetab.CreativeTabBCT;
+
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -15,6 +17,7 @@ public class ItemBCT extends Item {
         super();
         this.maxStackSize = 1;
         this.setNoRepair();
+        this.setCreativeTab(CreativeTabBCT.BETTER_CRAFTING_TABLES_TAB);
     }
 
     @Override
